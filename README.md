@@ -23,4 +23,4 @@ jinlong
 
 ## 分表策略
 
-    1、对bucket中的object名称做hash，按hash值后三位进行分表，即分到256张表中。
+    1、对bucket中的object名称做hash，按hash值后两位进行分表，即分到256张表中。
