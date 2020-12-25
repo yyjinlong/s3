@@ -1,0 +1,7 @@
+server:
+  address: "0.0.0.0:8080"
+  logfile: "/tmp/s3.log"
+postgres:
+  master: "postgres://jinlong:postgres@localhost:5432/s3?sslmode=disable"
+  slave1: "postgres://jinlong:postgres@localhost:5432/s3?sslmode=disable"
+  slave2: "postgres://jinlong:postgres@localhost:5432/s3?sslmode=disable"
